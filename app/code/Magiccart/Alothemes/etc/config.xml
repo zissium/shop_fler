@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2016-02-23 18:59:34
+ * @@Modify Date: 2018-05-22 21:49:00
+ * @@Function:
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+	    <alothemes>
+            <rtl>
+                <enabled>0</enabled>
+            </rtl>
+            <grid>
+                <mobile>1</mobile>
+                <portrait>2</portrait>
+                <landscape>2</landscape>
+                <tablet>3</tablet>
+                <notebook>4</notebook>
+                <desktop>2</desktop>
+                <visible>3</visible>
+                <padding>15</padding>
+            </grid>
+            <related>
+                <slide>1</slide>
+                <vertical>false</vertical>
+                <infinite>true</infinite>
+                <autoplay>true</autoplay>
+                <dots>false</dots>
+                <rows>1</rows>
+                <speed>300</speed>
+                <autoplay-Speed>3000</autoplay-Speed>
+                <padding>15</padding>
+                <mobile>1</mobile>
+                <portrait>2</portrait>
+                <landscape>3</landscape>
+                <tablet>3</tablet>
+                <notebook>4</notebook>
+                <desktop>4</desktop>
+                <visible>4</visible>
+            </related>
+            <upsell>
+                <slide>1</slide>
+                <vertical>false</vertical>
+                <infinite>true</infinite>
+                <autoplay>true</autoplay>
+                <dots>false</dots>
+                <rows>1</rows>
+                <speed>300</speed>
+                <autoplay-Speed>3000</autoplay-Speed>
+                <padding>15</padding>
+                <mobile>1</mobile>
+                <portrait>2</portrait>
+                <landscape>3</landscape>
+                <tablet>3</tablet>
+                <notebook>4</notebook>
+                <desktop>4</desktop>
+                <visible>4</visible>
+            </upsell>
+            <crosssell>
+                <slide>1</slide>
+                <vertical>false</vertical>
+                <infinite>true</infinite>
+                <autoplay>true</autoplay>
+                <dots>false</dots>
+                <rows>1</rows>
+                <speed>300</speed>
+                <autoplay-Speed>3000</autoplay-Speed>
+                <padding>15</padding>
+                <mobile>1</mobile>
+                <portrait>2</portrait>
+                <landscape>3</landscape>
+                <tablet>3</tablet>
+                <notebook>4</notebook>
+                <desktop>4</desktop>
+                <visible>4</visible>
+            </crosssell>
+            <labels>
+            	<!-- <newLabel>1</newLabel> -->
+            	<newText>New</newText>
+            	<!-- <saleLabel>1</saleLabel> -->
+            	<saleText>Sale</saleText>
+            	<salePercent>0</salePercent>
+            </labels>
+            <timer>
+            	<enabled>0</enabled>
+            	<caption>1</caption>
+            </timer>
+            <categorysearch>
+            	<enabled>0</enabled>
+				<select_category_on_category_pages>1</select_category_on_category_pages>
+				<show_subcategories>1</show_subcategories>
+				<subcategories_level>3</subcategories_level>
+				<indentation_text>-</indentation_text>
+            </categorysearch>
+            <newsletter>
+                <enabled>1</enabled>
+                <firstOnly>1</firstOnly>
+                <timeDelay>4000</timeDelay>
+                <autoClose>1</autoClose>
+                <timeClose>10000</timeClose>
+                <width>778</width>
+                <height>360</height>
+                <overlayColor>#353535</overlayColor>
+                <background_color>#ffffff</background_color>
+            </newsletter>
+            <font>
+            	<size>14px</size>
+            	<google>Raleway</google>
+            </font>
+	    </alothemes>
+	    <alodesign>
+	        <general>
+	            <developer>1</developer>
+	        </general>
+	    </alodesign>
+        <alosocial>
+            <general>
+                <enabled>1</enabled>
+            </general>
+            <social>
+                <enabled>1</enabled>
+                <position>right</position>      
+                <marginTop>100</marginTop>      
+                <!-- <facebook_title>Follow via Facebook</facebook_title>           
+                <facebook_url>https://www.facebook.com</facebook_url>           
+                <linkedin_title>Follow via Linkedin</linkedin_title>
+                <twitter_title>Follow via Twitter</twitter_title>
+                <twitter_url>https://www.twitter.com</twitter_url>
+                <googleplus_title>Follow via Google +</googleplus_title>
+                <googleplus_url>https://www.plus.google.com</googleplus_url>
+                <youtube_title>Follow via Youtube</youtube_title>
+                <youtube_url>https://www.youtube.com</youtube_url>
+                <pinterest_title>Follow via Pinterest</pinterest_title>
+                <pinterest_url>https://www.pinterest.com/</pinterest_url> -->
+                <instagram_title>Follow via Instagram</instagram_title>
+                <tumblr_title>Follow via Tumblr</tumblr_title>
+                <flickr_title>Follow via Flickr</flickr_title>
+                <web_title>Go To</web_title>
+                <webmail_title>Mail To</webmail_title>
+            </social>
+            <facebook>
+                <enabled>1</enabled>
+                <fb_page_url><![CDATA[1448170955454682]]></fb_page_url>
+                <!-- <fb_page_url><![CDATA[https://www.facebook.com/alothemes]]></fb_page_url> -->
+                <header>1</header>
+                <width>292</width>
+                <connection>10</connection>             
+            </facebook>
+            <twitter>
+                <enabled>1</enabled>
+                <twitterid>alothemes</twitterid>
+                <consumerkey>qnQn51Hl7L0g3sJyU4sOIK3iV</consumerkey>
+                <consumersecret>7PYLSVDzRgwDSlxaJRcdYjRv8Qp4cs08l0jFjk8TgBpzmCZxya</consumersecret>
+                <accesstoken>2653926222-AKAZOwcOxNAb3r6Xz0vGUT8i4QLUBrDuuAM88uA</accesstoken>
+                <accesstokensecret>z5OaEIWwjBHvOIZTv2P1XrC4s3fkJ0Rb2HI5gi5fOJXuD</accesstokensecret>    
+                <numberoftweets>2</numberoftweets>      
+                <showlinks>1</showlinks>        
+                <usenofollow>0</usenofollow>        
+                <opennew>1</opennew>        
+                <attags>1</attags>      
+                <hashtags>1</hashtags>      
+                <showfollow>0</showfollow>      
+            </twitter>
+            <instagram>
+                <username>mishanonoo_show</username>
+                <accessToken>4263386811.ba4c844.8a1a94a0fc1e484d96532a23712e90d9</accessToken>
+                <limit>10</limit>
+            </instagram>
+            <pinterest>
+                <username>vmrkela</username>
+                <limit>10</limit>
+            </pinterest>
+            <flickr>
+                <username>Mrky1</username>
+                <limit>10</limit>
+            </flickr>
+            <picasa>
+                <username>vmrkela1@gmail.com</username>
+                <limit>10</limit>
+            </picasa>
+        </alosocial>
+	</default>
+</config>

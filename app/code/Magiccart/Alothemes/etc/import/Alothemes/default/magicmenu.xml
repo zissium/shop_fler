@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <magicmenu>
+    <item>
+      <name><![CDATA[Featured brands]]></name>
+      <extra><![CDATA[1]]></extra>
+      <magic_label><![CDATA[]]></magic_label>
+      <link><![CDATA[motorbike.html]]></link>
+      <ext_content><![CDATA[]]></ext_content>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <name><![CDATA[Blog]]></name>
+      <extra><![CDATA[1]]></extra>
+      <magic_label><![CDATA[]]></magic_label>
+      <link><![CDATA[blog]]></link>
+      <ext_content><![CDATA[]]></ext_content>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <name><![CDATA[About Us]]></name>
+      <extra><![CDATA[1]]></extra>
+      <magic_label><![CDATA[]]></magic_label>
+      <link><![CDATA[about-us]]></link>
+      <ext_content><![CDATA[]]></ext_content>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </item>
+  </magicmenu>
+</root>

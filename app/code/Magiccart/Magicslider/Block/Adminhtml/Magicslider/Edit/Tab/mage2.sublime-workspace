@@ -1,0 +1,596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isset"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"s",
+				"serialize"
+			],
+			[
+				"magic",
+				"magicslider"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"f",
+				"foreach\tforeach …"
+			],
+			[
+				"lo",
+				"localhost"
+			],
+			[
+				"change",
+				"changePasswordUserMySQL"
+			],
+			[
+				"pass",
+				"PASSWORD"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"st",
+				"str_js"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"w",
+				"workdir"
+			],
+			[
+				"z",
+				"zIndex"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"v",
+				"var_dump"
+			],
+			[
+				"Tem",
+				"Template_Hints"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"A",
+				"API_TOKEN"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"com",
+				"commit"
+			],
+			[
+				"con",
+				"console"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "http://alothemes.com//themeforest/security/supee-8788/app.zip\n\nmysql -u username -p database_name < file.sql\n\ncat ~/.ssh/id_rsa.pub | ssh root@45.63.50.80 \"mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys\"\n\n\nsudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc php-zip php-intl\n\n\nchown -R nguyen:www-data\n\nusermod -g nguyen www-data\n\n\nln -s /home/www/alothemes /usr/bin/alothemes\n\n\nusermod -g nguyen root\n\nuseradd -g developers tony\n\n git init && git remote add origin nguyen@alothemes.com:alothemes.git\n\n\n\n git remote set-url website abc@***.com:path/to/repo\n\n\n\n\n\n\n\n\n git diff --name-only 5a0d529ae32274407f1f876d4fb177916f297a15 ef2dfdac8b5e77387e1d6506c362998af612c9c3\n\ngit archive --output=file.zip HEAD $(git diff --name-only 5a0d529ae32274407f1f876d4fb177916f297a15 ef2dfdac8b5e77387e1d6506c362998af612c9c3)\n\n\ngit archive -o zipfile.zip HEAD $(git diff-tree --no-commit-id --name-only -r 5a0d529ae32274407f1f876d4fb177916f297a15 ef2dfdac8b5e77387e1d6506c362998af612c9c3)\n\nIFS=$'\\r\\n' GLOBIGNORE='*' command eval  'XYZ=($(git rev-list HEAD))'\necho \"${XYZ[5]}\"\n\n\n\ngit archive -o changed.zip aabe00d00ab75e93595aaa9bfb62ca0e6b986236 $(git diff-tree --no-commit-id --name-only -r ef2dfdac8b5e77387e1d6506c362998af612c9c3)\n\n\ngit archive -o changedsss.zip ac47d64827195846551f4c19d62d170467c2efb5",
+			"settings":
+			{
+				"buffer_size": 1324,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/nguyen/BOOT/FileZilla/SupportALO"
+	],
+	"file_history":
+	[
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/adminhtml/templates/product/edit/slideout/form.phtml",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/view/adminhtml/templates/catalog/product/helper/gallery.phtml",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Controller/Adminhtml/Index/Edit.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Controller/Adminhtml/Index/Save.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Magicslider/Grid.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/view/adminhtml/templates/catalog/video/helper/gallery.phtml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/templates/catalog/product/helper/gallery.phtml",
+		"/home/www/mage.com/public_html/quickview/app/autoload.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Magicslider/Helper/Form/Gallery/Content.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Magicslider/Edit/Tab/Form.php",
+		"/tmp/fz3temp-1/index.php",
+		"/home/www/mage.com/public_html/quickview/var/log/system.log",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/etc/adminhtml/events.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product/Helper/Form/Gallery/Content.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Magicslider/Helper/Form/Gallery.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product/Helper/Form/Gallery.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/ui_component/product_form.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/adminhtml/layout/catalog_product_form.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/adminhtml/templates/helper/gallery.phtml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/adminhtml/templates/product/edit/base_image.phtml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/Observer/ChangeTemplateObserver.php",
+		"/media/nguyen/BOOT/FileZilla/SupportALO/hackLoginAdmin.php",
+		"/tmp/fz3temp-1/index 2.php",
+		"/tmp/fz3temp-1/index 3.php",
+		"/tmp/fz3temp-1/local 2.xml",
+		"/tmp/fz3temp-1/local.xml",
+		"/home/www/mage.com/public_html/quickview/app/etc/config.php",
+		"/home/www/mage.com/public_html/quickview/var/log/exception.log",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Test/Unit/Model/ProductTest.php",
+		"/home/www/mage.com/public_html/quickview/var/report/292525550615",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/view/adminhtml/layout/magicslider_index_form.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Model/Product.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/view/adminhtml/layout/magicslider_index_edit.xml",
+		"/home/www/mage.com/logs/error.log",
+		"/tmp/fz3temp-1/default 2.phtml",
+		"/tmp/fz3temp-1/default 3.phtml",
+		"/tmp/fz3temp-1/configurable.phtml",
+		"/tmp/fz3temp-1/default.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Supermarket/alo_supermarket_package_2.0/magento1x/theme/app/design/frontend/alosupermarket/supermarket06/template/page/html/header.phtml",
+		"/media/nguyen/BOOT/FileZilla/SupportALO/Commandline/SomeCLI.sh",
+		"/home/nguyen/.ssh/id_dsa",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Helper/Renderer/Grid/Image.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/Block/Product/View/Gallery.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Setup/InstallSchema.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Model/Product/Media/Config.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Controller/Adminhtml/Product/Gallery/Upload.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Model/ImageUploader.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Controller/Adminhtml/Index/Gallery/Upload.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Controller/Adminhtml/Category/Image/Upload.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Model/Category/Attribute/Backend/Image.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/etc/di.xml",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Model/Magicslider/Media/Config.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicmenu/view/adminhtml/ui_component/category_form.xml",
+		"/media/nguyen/BOOT/ALO Templates/Smile/alo_smile_package_1.6/theme_1.6/app/design/frontend/alosmile/default/template/magiccart/alothemes/newsletter/subscribe.phtml",
+		"/tmp/fz3temp-1/grouped.phtml",
+		"/tmp/fz3temp-1/addtocart.phtml",
+		"/tmp/fz3temp-1/attributes.phtml",
+		"/tmp/fz3temp-1/addto.phtml",
+		"/tmp/fz3temp-1/additional.phtml",
+		"/tmp/fz3temp-1/view.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Supermarket/alo_supermarket_package_2.0/magento2x/theme/app/code/Magiccart/Alothemes/etc/import/Alothemes/supermarket02/page.xml",
+		"/media/nguyen/BOOT/ALO Templates/Supermarket/alo_supermarket_package_2.0/magento2x/theme/app/code/Magiccart/Alothemes/etc/import/Alothemes/supermarket/page.xml",
+		"/media/nguyen/BOOT/ALO Templates/Bencher/alo_bencher_package_2.0/magento2.x/theme/app/code/Magiccart/Alothemes/view/frontend/templates/themecfg.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Kuteshop/alo_kuteshop_package_2.0BC/alo_kuteshop_quickstart_1.1B/app/design/frontend/alokuteshop/default/template/magiccart/magicmenu/vmenu.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Kuteshop/alo_kuteshop_package_2.0BC/alo_kuteshop_quickstart_1.1B/app/design/frontend/alokuteshop/default/template/magiccart/magicmenu/verticalmenu.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Kuteshop/alo_kuteshop_package_2.0BC/alo_kuteshop_quickstart_1.1B/app/design/frontend/alokuteshop/default/template/magiccart/magicmenu/vmagicmenu.phtml",
+		"/media/nguyen/BOOT/ALO Templates/Milano/HTML/milano_html/milano/php/phpmailer.php",
+		"/media/nguyen/BOOT/ALO Templates/Milano/HTML/milano_html/milano/php/class.phpmailer.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/view/adminhtml/layout/magicslider_index_new.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/Block/Adminhtml/Product/Edit/NewVideo.php",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Testimonial/view/adminhtml/layout/testimonial_index_edit.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product/Attribute/Edit/Tab/Main.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/web/js/components/new-attribute-form.js",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product/Edit/Button/Save.php",
+		"/home/www/mage.com/public_html/quickview/app/etc/env.php",
+		"/home/www/mage.com/public_html/quickview/var/log/debug.log",
+		"/media/nguyen/BOOT/Workshop/Sale Themeforest 2016.txt",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_index.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_new.xml",
+		"/media/nguyen/BOOT/ALOThemes/htdocs/alo_electro/app/code/local/Magiccart/Magicslider/Block/Adminhtml/Magicslider/Edit/Tab/Gallery.php",
+		"/media/nguyen/BOOT/ALOThemes/htdocs/alo_electro/app/code/local/Magiccart/Megashop/Block/Adminhtml/Manage/Edit/Tab/Form.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Controller/Product/Gallery.php",
+		"/home/www/mage.com/public_html/quickview/var/report/996254586165",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_form.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product/Edit/Tab/Attributes.php",
+		"/home/www/mage.com/public_html/quickview/var/report/1034856941601",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_reload.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_change_attribute_set.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_category_add.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_edit.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_product_grid.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout/catalog_category_edit.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/adminhtml/layout/catalog_product_new.xml",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/Test/Unit/Observer/ChangeTemplateObserverTest.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video/view/frontend/layout/catalog_product_view.xml",
+		"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicproduct/Block/Adminhtml/Category/Edit/Tab/Form.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/framework/App/Response/HeaderProvider/XssProtection.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Model/Product/Attribute/Source/Status.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/magento2-base/dev/tests/integration/testsuite/Magento/Catalog/Model/Product/Attribute/Backend/SkuTest.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/framework/App/Cache/TypeList.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/framework/App/Cache/State.php",
+		"/home/www/mage.com/public_html/quickview/vendor/magento/framework/App/Cache/Manager.php",
+		"/home/www/alothemes",
+		"/tmp/fz3temp-1/alothemes",
+		"/media/nguyen/BOOT/FileZilla/CMD_M2/cmd.sh",
+		"/etc/hosts",
+		"/home/www/wp.com/public_html/index.php",
+		"/etc/nginx/sites-available/mage.com",
+		"/media/nguyen/BOOT/ALOThemes/apache/manual/developer/documenting.html.en",
+		"/home/www/mage.com/public_html/index.php",
+		"/media/nguyen/BOOT/ALOThemes/apache/manual/expr.html.en",
+		"/media/nguyen/BOOT/ALOThemes/apache/manual/expr.html",
+		"/media/nguyen/BOOT/ALOThemes/apache/manual/mod/quickreference.html.de",
+		"/home/www/mage.com/public_html/magento2x/index.php",
+		"/var/log/php7.0-fpm.log",
+		"/home/www/wp.com/public_html/index.html",
+		"/home/www/mage.com/public_html/gitlab.php",
+		"/home/nguyen/git/gitlab/git-init-remote",
+		"/home/nguyen/python/script.py",
+		"/media/nguyen/BOOT/Woocommerce/htdocs/app.php",
+		"/tmp/fz3temp-1/page.xml",
+		"/tmp/fz3temp-1/iwd_all 2.xml",
+		"/media/nguyen/BOOT/ALO Templates/Electro/alo_electro_package_2.0/magento1.x/theme/app/code/local/Magiccart/Magicslider/sql/magicslider_setup/mysql4-install-0.1.0.php",
+		"/home/nguyen/bash/checkbox",
+		"/tmp/fz3temp-1/jquery.alothemes.js",
+		"/tmp/fz3temp-1/magicproduct.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider",
+			"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider/Block/Adminhtml/Magicslider",
+			"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/app/code/Magiccart/Magicslider",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/vendor",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-product-video",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview",
+			"/home/www/mage.com/public_html/quickview/vendor/magento",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview/vendor/magento",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/Block/Adminhtml/Product",
+			"/home/www/mage.com/public_html/quickview/vendor/magento/module-catalog/view/adminhtml/layout",
+			"/home/www/mage.com/public_html/quickview/vendor/magento",
+			"/media/nguyen/BOOT/ALOThemes/apache",
+			"/home/www/wp.com/public_html/wpbasic/wp-content/themes",
+			"/home/www/wp.com/public_html/wpbasic/wp-content/plugins/woocommerce",
+			"/home/nguyen/Filezilla/vpssim"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"catalog_product_gallery_prepare_layout",
+			"foreach",
+			"194",
+			"form/provider",
+			"provider",
+			"new-video",
+			"getWidgetOptions",
+			"videoSelector",
+			"magic_",
+			"magic_media_gallery",
+			"Hide from Product Pa",
+			"disable",
+			"$this->_eventManager->dispatch('catalog_product",
+			"catalog_product_gallery_prepare_layout",
+			"ChangeTemplateObserver",
+			"helper/gallery.phtml",
+			"Add video",
+			"base_image.phtml",
+			"Add Video",
+			"add",
+			"role",
+			"new",
+			"Alt",
+			"role",
+			"_mediaConfig",
+			"getImages",
+			"getImageTypes",
+			"getMediaAttributes",
+			"ImagesJson",
+			"getImagesJson",
+			"gallery",
+			"main_section_content",
+			"getMediaAttributes",
+			"function getMediaAttributes",
+			"getMediaAttributes",
+			"getHtmlId",
+			"getDataObject",
+			"_reviewData",
+			"')\n",
+			".tmp",
+			"baseTmpPath",
+			"getBaseTmpPath",
+			"moveFileFromTmp",
+			"Magento\\Catalog\\Model\\ImageUploader",
+			"Magento\\MediaStorage\\Model\\File\\Uploader",
+			"tmp/",
+			"handleImageRemoveError",
+			"_urlBuilder",
+			"catalog/product",
+			"getBaseMediaPathAddition",
+			"getBaseTmpMediaPath",
+			"ADMIN_RESOURCE",
+			"product-type-data",
+			"Availability",
+			"getImagesJson",
+			"main_section_content",
+			"fieldNameSuffix",
+			"getBaseTmpMediaPath",
+			"get-video-information.js",
+			"js/get-video-information.js",
+			"('gallery')",
+			"product_form",
+			"slider_form",
+			"video",
+			"getDataObject",
+			"getImageTypes",
+			"getMediaAttributes",
+			"getImageTypes",
+			"main_section_content",
+			"getElementHtml",
+			"getContentHtml",
+			"getJsObjectName",
+			"getDataObject",
+			"getMediaAttributes",
+			"toHtml",
+			"_urlBuilder",
+			"getDataObject",
+			"Element",
+			"setElement",
+			"getChildBlock('gallery')",
+			"getAttributeFieldName",
+			"media_gallery",
+			"product",
+			"product_form",
+			"0",
+			"/gallery.phtml",
+			"_reviewData",
+			"STATUS_ENABLED",
+			"Enabled",
+			"Status",
+			"reviewData",
+			"_reviewData",
+			"Last modified</a>",
+			"body > table > tbody > tr:nth-child(1) > th:nth-child(3) > a",
+			"Description",
+			"Last modified",
+			"}\n",
+			"List",
+			"list",
+			"magicTooltip",
+			"git",
+			"duoi",
+			"gitIgnoreMagento1xTheme",
+			"gitConfig",
+			"addMagento1xThemeToGitLab",
+			"gitIgnoreMagento1xTheme",
+			"Files",
+			"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYzGlfmf8W8XjkpINqUN33xUof6pFKI5N5Ckcpd0N0vzqidmH/6gGtNpNqesnOasqOkcQ+M4Ra/Z7LRsOWsUIYIdEweamaT7n1EK7dVLYwlSvMumznOw/kMj93ElqgirnS2Vxa9O22qXV9OIvKk0BMkqhw/aJpJEie0ehuFVPCmbiPOKM9+BW5sdAEKEdZW7xDqi5ZwIlV0i09EjrbFKT/gXGwKeQCBhZZCfciHsQvSQzs/mm/kKr8qRxbw3SLIc4NmnaOHP4gSOfUnXWokZeoBFwb9k00nCucv9iwf2IbtLhG3GN1y2tiVZuQhizB4Ex/uv7Y2yP3lsdLAC5ZlYD9 nguyen@dvn\n",
+			"host",
+			"url",
+			"internal_api_url",
+			"GITLAB_GROUP_MAGENTO2x_DIR",
+			"creatRepoIfnotExist",
+			"GITLAB_GROUP_MAGENTO2x_DIR",
+			"SCRIPTNAME",
+			"link",
+			"_templates",
+			" '<",
+			"header-main.php",
+			"locate_template",
+			"function locate_template",
+			"functionlocate_template",
+			"locate_template",
+			"GITLAB_URL",
+			"not",
+			"server_name",
+			"http_code",
+			"vpssim.check"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_status",
+			"magiccart/magicslider",
+			"GITLAB_URLS",
+			"gitlab.alothemes.com",
+			"/home",
+			"${userservice}",
+			"mage.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/media/nguyen/BOOT/FileZilla/SupportALO"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/home/www/mage.com/public_html/quickview/app/mage.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 370.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
