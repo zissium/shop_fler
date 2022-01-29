@@ -1,0 +1,95 @@
+/* commom */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-center {
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* header */
+header .header .header-content-support li.level2{
+    padding:0 5px;
+}
+header .header .header-content-support .ico{
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+    background: url(../images/header_icons.png) 0 0 no-repeat;
+}
+header .header .header-content-support .ico:hover,header .header .header-content-support .icon:hover{
+    background-position-y: bottom !important;
+}
+header .header .header-content-support .icon{
+    height:22px;
+    line-height:22px;
+    width: 25px;
+    height:22px;
+    line-height:22px;
+    padding:0;
+    background: url(../images/header_icons.png) -38px 0 no-repeat;
+}
+header .header .header-content-support .icon:before{
+    content:"";
+}
+header .header .header-content-support .customer .icon{
+    background-position: -76px 0;
+    margin-right: 5px;
+}
+header .header .header-content-support .minicart-wrapper .action.showcart .counter.qty{
+    left: 16px;
+    bottom: 8px;
+}
+header .header .header-content-support .header.links{
+    width: 218px;
+}
+
+.login .header.links {
+    width: 300px!important;
+}
+
+header .header .header-content-support .customer .links li:nth-child(1):after{
+    line-height: inherit;
+}
+
+.magicmenu .nav-desktop .level0:nth-child(3) {
+    background: url(http://shop.fler.local/media/logo/default/flerlogo.png) left 5px no-repeat;
+    background-size: 100%;
+    text-indent: -6666em;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-social-links {
+    display: none;
+}
+
+header .header .header-content-support .header.links li {
+    display: none;
+}
+
+.login .header.links li {
+    display: block!important;
+    width: 45%;
+    float: left;
+}
+
+.magicmenu .nav-desktop {
+    position: static;
+    margin: 0;
+    padding: 0;
+    padding-left: 20%;
+}
+
+.header-content-support {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+}
+
+.sections-page-bottom {
+    display: none!important;
+}

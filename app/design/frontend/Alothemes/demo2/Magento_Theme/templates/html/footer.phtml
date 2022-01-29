@@ -1,0 +1,44 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<!-- <div class="footer-container">
+    <div class="footer">
+        <?php //echo $block->getChildHtml() ?>
+        <p class="bugs"><?php /* @escapeNotVerified */ //echo __('Help Us Keep Magento Healthy') ?> - <a
+            href="http://www.magentocommerce.com/bug-tracking"
+            target="_blank"><strong><?php /* @escapeNotVerified */ //echo __('Report All Bugs') ?></strong></a>
+        </p>
+        <address><?php /* @escapeNotVerified */ //echo $block->getCopyright() ?></address>
+    </div>
+</div> -->
+
+
+<div class="main-footer">
+    <div class="container">
+        <div class="row">
+            <?php echo $this->getChildHtml('main-footer'); ?>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                <div class="copyright">
+
+                    <p>Copyright Notice © 2021 MIER Holding Limited and/or its affiliates and licensors. All rights reserved.</p>
+
+                    <p>Privacy Policy | Terms of Use | Sitemap</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" id="backtotop"><span class="fa fa-angle-up"></span><span class="back-to-top"><?php echo __('Back to Top')?></span></a>
+</div>

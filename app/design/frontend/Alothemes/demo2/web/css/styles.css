@@ -17,7 +17,7 @@
  * needs please refer to http://www.magentocommerce.com for more information.
  *
  * @category    design
- * @package     default_default
+ * @package     default_default.header-search .field.search
  * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
@@ -709,12 +709,12 @@ tr.summary-details-excluded{font-style:italic}
 .header-search .form-search:before, .header-search .form-search:after{content: ""; clear: both; display: table;}
 .header-search .form-search{background-color: #fff;position: relative;margin: 5px 0;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;}
 .header-search .form-search button.button{float: right; width: 75px; text-align: center; padding: 0; pointer-events: auto;cursor: pointer;position: absolute;right: 0;cursor: pointer;background-color: #333e48;color: #ffffff; border: 0; height: auto; opacity: 1;border-radius: 0 25px 25px 0;}
-.header-search .field.search{width: calc(100% - 75px)}
+.header-search .field.search{float:left;width: calc(100% - 75px)}
 .header-search .form-search button.button > span > span{padding:0;border:none; display: block; text-align: center; line-height: 50px;font-size: 0;display: none;}
 .header-search .form-search button.button > span{line-height: 50px;}
 .header-search .form-search button.button > span:before{font-size: 15px;font-family: 'FontAwesome';content: "\f002";font-weight: normal;}
 .header-search .form-search button.button > span .icon{font-size: 24px;display: inline-block; padding-top: 5px;}
-.header-search .form-search input.input-text{background-color:transparent; font-size:15px; margin:0;line-height:53px;height: 53px; border: 0; color: #a0a0a0; padding: 0 20px}
+.header-search .form-search input.input-text{background-color:transparent; font-size:15px; margin:0;line-height:50px;height: 50px; border: 0; color: #a0a0a0; padding: 0 20px}
 .header-search .form-search input[type="search"],.header-search .form-search input[type="search"]:-moz-placeholder{color: #a0a0a0 !important;}
 .header .form-search .dd-container{position: absolute;right: 40px;width: 130px !important;border-left: 1px solid #d9dadc}
 .header .form-search .catalogsearch {position: relative;}

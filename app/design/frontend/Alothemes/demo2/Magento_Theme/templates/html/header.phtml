@@ -25,47 +25,50 @@
  * @var \Magento\Theme\Block\Html\Header $this
  */
 ?>
-<header class="page-header alothemes">
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$customerSession = $objectManager->get('Magento\Customer\Model\Session');
+$islogin = $customerSession->isLoggedIn()? "login" : "notlogin";
+?>
+
+<header class="page-header alothemes <?php echo $islogin; ?>">
     <div class="header">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="top-left mobile-center">
-						<?php echo $this->getChildHtml('welcometop'); ?>
-					</div>
-					<div class="top-right mobile-center">
-						<div class="header-setting">
-						    <?php echo $this->getChildHtml('store_language'); ?>
-							<?php echo $this->getChildHtml('currency'); ?>
-							<div class="customer">
-								<span class="icon icon-user"><i class="hidden">hidden</i></span>
-								<div class="top-links">
-									<?php echo $this->getChildHtml('header.links'); ?>
-								</div>
-				            </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="header-content header-sticker">
 			<div class="container">
 				<div class="row">
-					<div class="content-logo col-lg-3 col-md-3 col-sm-3 col-xs-12">
-						<div class="header-logo">
-							<?php echo $this->getChildHtml('logo'); ?>
-						</div>
-					</div>
 					<div class="col-lg-12 visible-md-on">
 						<?php echo $this->getChildHtml('navigation.sections'); ?>
 					</div>
 					<div class="header-content-support col-lg-3 col-md-4 col-sm-12 col-xs-12">
-						<?php echo $this->getChildHtml('cms-static-top-support'); ?>
+                        <div class="place-menu-mobile menu-mobile"><i class="hidden">hidden</i>
+                            <span data-action="toggle-nav" class="action nav-toggle"><span><?php echo __('Menu') ?></span></span>
+                        </div>
+                        <ul class="flex flex-center">
+                            <li class="level2"><a href="#" class="ico search"></a></li>
+                            <li class="level2">
+                                <?php echo $this->getChildHtml('minicart'); ?>
+                            </li>
+                            <li class="level2">
+
+                                <div class="top-right mobile-center">
+                                    <div class="header-setting">
+                                        <div class="customer">
+                                            <a href="/customer/account/login">
+                                            <span class="icon icon-user"><i class="hidden">hidden</i></span>
+                                            </a>
+                                            <?php echo $this->getChildHtml('header.links'); ?>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="header-bottom">
+		<div class="header-bottom hidden">
 			<div class="container">
 				<div class="row">
 				    <div class="vertical-menu col-md-3 hidden-xs hidden-sm">
@@ -77,24 +80,15 @@
 							<?php echo $this->getChildHtml('top.search'); ?>
 						</div>
 					</div>
-					<div class="righ-header-content col-lg-3 col-md-3 col-sm-3 col-xs-12">
-						<ul class="top-link-product">
-							<?php //echo $this->getChildHtml('catalog.compare.link'); ?>
-							<a title="Compare" href="<?php echo $this->getUrl('catalog/product_compare') ?>" target="_blank" class="btn-compare icon icon-compare compare"></a>
-							<li>
-							    <a title="My wishlist" href="<?php echo $this->getUrl('wishlist') ?>" target="_blank" class="wishlist icon icon-favorites">
-							   
-							    </a>
-						    </li>
-						</ul>
-						<?php echo $this->getChildHtml('minicart'); ?>
-						<div class="place-menu-mobile menu-mobile"><i class="hidden">hidden</i>
-							<span data-action="toggle-nav" class="action nav-toggle"><span><?php echo __('Menu') ?></span></span>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+    <script type="text/javascript">
+        require(['jquery'],function ($) {
+            $('header .header .header-content-support .ico').click(function (){
+                $("header .header .header-bottom").toggleClass("hidden");
+            });
+        });
+    </script>
 </header>
