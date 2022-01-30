@@ -54,7 +54,7 @@ header .header .header-content-support .customer .links li:nth-child(1):after{
 }
 
 .magicmenu .nav-desktop .level0:nth-child(3) {
-    background: url(http://shop.fler.local/media/logo/default/flerlogo.png) left 5px no-repeat;
+    background: url(/media/logo/default/flerlogo.png) left 5px no-repeat;
     background-size: 100%;
     text-indent: -6666em;
     width: 100px;
