@@ -93,3 +93,7 @@ header .header .header-content-support .header.links li {
 .sections-page-bottom {
     display: none!important;
 }
+
+.cms-index-index .column.main {
+    min-height: 0!important;
+}
