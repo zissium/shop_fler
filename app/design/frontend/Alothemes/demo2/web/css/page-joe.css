@@ -45,10 +45,6 @@ header .header .header-content-support .header.links{
     width: 218px;
 }
 
-.login .header.links {
-    width: 300px!important;
-}
-
 header .header .header-content-support .customer .links li:nth-child(1):after{
     line-height: inherit;
 }
@@ -72,7 +68,7 @@ header .header .header-content-support .header.links li {
 
 .login .header.links li {
     display: block!important;
-    width: 45%;
+    width: 40%;
     float: left;
 }
 

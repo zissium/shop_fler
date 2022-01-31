@@ -27,8 +27,9 @@
 ?>
 <?php
 $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-$customerSession = $objectManager->get('Magento\Customer\Model\Session');
-$islogin = $customerSession->isLoggedIn()? "login" : "notlogin";
+$context = $objectManager->get('Magento\Framework\App\Http\Context');
+$isLoggedIn = $context->getValue(\Magento\Customer\Model\Context::CONTEXT_AUTH);
+$islogin = $isLoggedIn? "login" : "notlogin";
 ?>
 
 <header class="page-header alothemes <?php echo $islogin; ?>">

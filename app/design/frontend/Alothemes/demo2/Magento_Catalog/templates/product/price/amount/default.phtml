@@ -11,10 +11,11 @@
 <?php /** @var \Magento\Framework\Pricing\Render\Amount $block */ ?>
 <?php
 $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-$customerSession = $objectManager->get('Magento\Customer\Model\Session');
+$context = $objectManager->get('Magento\Framework\App\Http\Context');
+$isLoggedIn = $context->getValue(\Magento\Customer\Model\Context::CONTEXT_AUTH);
 ?>
 
-<?php if($customerSession->isLoggedIn()): ?>
+<?php if($isLoggedIn): ?>
     <span class="price-container <?php /* @escapeNotVerified */ echo $block->getAdjustmentCssClasses() ?>"
         <?php echo $block->getSchema() ? ' itemprop="offers" itemscope itemtype="http://schema.org/Offer"' : '' ?>>
     <?php if ($block->getDisplayLabel()): ?>
@@ -35,13 +36,37 @@ $customerSession = $objectManager->get('Magento\Customer\Model\Session');
             <meta itemprop="priceCurrency" content="<?php /* @escapeNotVerified */ echo $block->getDisplayCurrencyCode()?>" />
         <?php endif; ?>
 </span>
-
+<div class="actions">
+        <a href="http://liyahu.com/contact-us" title="Order Now" class="action primary" style="display: inline-block;
+    text-decoration: none;
+    margin-top: 0.5em;
+    font-size: 24px;
+    text-align: center;
+    color: #1d2087;
+    width: 7.42em;
+    height: 2em;
+    line-height: 1.8em;
+    border-radius: 0.625em;
+    border: solid 2px #1d2087;">
+                Order Now
+        </a>
+</div>
 <?php else: ?>
-    <ul class="header links"><li style="margin-right: 20px" class="authorization-link" data-label="or">
-            <a href="http://shop.fler.local/customer/account/login/referer/aHR0cDovL3Nob3AuZmxlci5sb2NhbC8ybXguaHRtbA%2C%2C/">
-                Sign In    </a>
-        </li>
-       </ul>
+    <div class="actions">
+        <a href="/customer/account/login/referer/aHR0cDovL3Nob3AuZmxlci5sb2NhbC8ybXguaHRtbA%2C%2C/" title="Sign In" class="action primary" style="display: inline-block;
+    text-decoration: none;
+    margin-top: 0.5em;
+    font-size: 24px;
+    text-align: center;
+    color: #1d2087;
+    width: 7.42em;
+    height: 2em;
+    line-height: 1.8em;
+    border-radius: 0.625em;
+    border: solid 2px #1d2087;">
+               Sign In
+        </a>
+    </div>
 <?php endif; ?>
 
 
