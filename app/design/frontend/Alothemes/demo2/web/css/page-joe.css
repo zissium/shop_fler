@@ -89,3 +89,12 @@ header .header .header-content-support .header.links li {
 .sections-page-bottom {
     display: none!important;
 }
+
+.cms-index-index .column.main {
+    min-height: 0!important;
+}
+
+.minicart-wrapper .action.showcart .counter.qty {
+    color: #ffffff;
+    background-color: #1d20878c!important;
+}
