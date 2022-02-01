@@ -98,3 +98,7 @@ header .header .header-content-support .header.links li {
     color: #ffffff;
     background-color: #1d20878c!important;
 }
+
+.product.data.items > .item.content .value {
+    width:30%!important;
+}
