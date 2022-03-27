@@ -102,3 +102,6 @@ header .header .header-content-support .header.links li {
 .product.data.items > .item.content .value {
     width:30%!important;
 }
+body .product-info-main .price-box .price-wrapper .price{
+   display:none;
+}
